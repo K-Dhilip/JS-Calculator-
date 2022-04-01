@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+@font-face {
+    font-family: "DS-DIGII";
+    src: url("./fonts/DS-DIGI.woff");
+}
+
+
+.container{
+    margin:10% auto;
+    width: 280px;
+    gap: 10px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+    outline:2.5px solid rgb(102, 102, 102);
+ 
+}
+#display{
+    grid-column: 1/ span 4;
+    background-color: #9DB94E;
+    height: 80px;
+    font-family: "DS-DIGII";
+    font-size: 55px;
+    box-shadow: 0rem 0.0rem 0.2rem black;
+    color: black;
+    text-align: right;
+    padding-right: 2px;
+}
+#clear{
+    background-color: rgb(255, 122, 122);
+    color: #fff;
+}
+
+p{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-column: 1/ span 4;
+    font-size: 25px;
+    color: #fff;
+}
+
+button{
+    border-radius: 5px;
+    font-family:sans-serif;
+    border: 0;
+    box-shadow: 0rem 0.1rem 0.2rem black;
+    text-align: center;
+    font-weight: bold;
+ 
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#orange{
+    background-color: rgb(142, 181, 255);
+    color: #fff;
+}
+#enter{
+    grid-column: 4;
+    grid-row: 6/ span 2;
+    background-color: rgb(255, 255, 77);
+    color: #000;
+    border: 0;
+}
